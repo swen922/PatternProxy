@@ -46,7 +46,7 @@ public class PornVideoService implements VideoService {
         }
 
         for (int i = 0; i < quantity; i++) {
-            Video video = new Video(i, "Video-" + i, "Video Info number " + i, "Video file -" + i);
+            Video video = new Video(i, "Video-" + i, "Video Info number " + i, "Video file-" + i);
             allVideos.put(i, video);
         }
     }

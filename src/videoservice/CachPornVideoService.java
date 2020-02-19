@@ -85,4 +85,16 @@ public class CachPornVideoService implements VideoService {
         return null;
     }
 
+    public int getCachedNamesSize() {
+        return cachedNames.size();
+    }
+
+    public int getCachedVideoSize() {
+        return cachedVideos.size();
+    }
+
+    public List<Video> getCachedVideos() {
+        return cachedVideos;
+    }
+
 }
