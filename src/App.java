@@ -1,5 +1,7 @@
 import videoservice.*;
 
+/** Заместитель, также известен как: Proxy */
+
 public class App {
 
     public static void main(String[] args) {
